@@ -16,7 +16,7 @@ nam:
   max_epochs: 500
   early_stop_patience: 20
   output_penalty: 0.0
-  feature_dropout: 0.0
+  feature_dropout: 0.1
 
 xgboost:
   max_depth: 6
