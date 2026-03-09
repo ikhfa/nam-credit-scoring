@@ -8,8 +8,8 @@ data:
   test_ratio: 0.25
 
 nam:
-  hidden_sizes: [64, 64, 64]
-  dropout: 0.3
+  hidden_sizes: [128, 128, 128]
+  dropout: 0.1
   learning_rate: 0.001
   weight_decay: 0.00001
   batch_size: 256
