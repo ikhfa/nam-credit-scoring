@@ -46,7 +46,6 @@ python scripts/run_pipeline.py --skip-search
 │   └── visualization/            # Shape functions, SHAP, calibration plots
 ├── notebooks/                    # Step-by-step Jupyter notebooks (01-05)
 ├── scripts/                      # Standalone training and pipeline scripts
-├── survey/                       # Human evaluation study materials
 ├── tests/                        # Unit tests
 └── results/                      # Output figures, tables, logs
 ```
