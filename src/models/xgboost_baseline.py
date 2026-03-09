@@ -107,7 +107,8 @@ def hyperparameter_search_xgboost(
     optuna.logging.set_verbosity(
         optuna.logging.INFO if verbose else optuna.logging.WARNING
     )
-    study = optuna.create_study(direction="maximize", seed=seed)
+    sampler = optuna.samplers.TPESampler(seed=seed)
+    study = optuna.create_study(direction="maximize", sampler=sampler)
     study.optimize(objective, n_trials=n_trials)
 
     best_params = study.best_params
